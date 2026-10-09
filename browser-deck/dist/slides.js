@@ -53,8 +53,7 @@ window.DECK = [
         "id": "vscode",
         "category": "Приложение",
         "title": "Visual Studio Code",
-        "description": "Редактор кода для компьютера",
-        "stack": "JavaScript / TypeScript · Electron",
+        "description": "Редактор для написания кода и работы над проектами",
         "image": "assets/projects/vscode.png",
         "imageAlt": "Интерфейс Visual Studio Code"
       },
@@ -62,8 +61,7 @@ window.DECK = [
         "id": "dino",
         "category": "Браузерная игра",
         "title": "Chrome Dino",
-        "description": "Тот самый динозаврик без интернета",
-        "stack": "JavaScript / TypeScript · Canvas",
+        "description": "Игра про динозаврика, который перепрыгивает препятствия",
         "image": "assets/projects/dino.png",
         "imageAlt": "Интерфейс Chrome Dino"
       },
@@ -71,8 +69,7 @@ window.DECK = [
         "id": "obsidian",
         "category": "Заметки и знания",
         "title": "Obsidian",
-        "description": "Личная база знаний на компьютере",
-        "stack": "JavaScript · Electron",
+        "description": "Заметки, связанные идеи и личная база знаний",
         "image": "assets/projects/obsidian.png",
         "imageAlt": "Официальное изображение Obsidian"
       },
@@ -80,8 +77,7 @@ window.DECK = [
         "id": "slack",
         "category": "Работа в команде",
         "title": "Slack",
-        "description": "Командное общение",
-        "stack": "TypeScript · Electron",
+        "description": "Чаты, каналы и совместная работа команды",
         "image": "assets/projects/slack.jpg",
         "imageAlt": "Каналы Slack — изображение с официального сайта"
       },
@@ -89,8 +85,7 @@ window.DECK = [
         "id": "figma",
         "category": "Дизайн",
         "title": "Figma",
-        "description": "Совместный дизайн интерфейсов",
-        "stack": "React / TypeScript · Веб-интерфейс",
+        "description": "Создание интерфейсов и интерактивных прототипов",
         "image": "assets/projects/figma.png",
         "imageAlt": "Интерфейс Figma UI3 — изображение из официального блога"
       }
@@ -318,9 +313,9 @@ window.DECK = [
   },
   {
     "id": "growth",
-    "title": "Направления развития",
-    "label": "Куда двигаться дальше",
-    "notes": "Из фронтенда можно развиваться в разные стороны. Full stack — это серверная разработка, например Node.js, API, база данных и авторизация. Pixi.js предоставляет 2D-рендеринг, Phaser — игровой фреймворк. Three.js применяют для 3D-графики, в том числе в браузерных играх. MapLibre GL JS помогает создавать интерактивные карты. React Native позволяет создавать мобильные приложения для iOS и Android. Tauri и Electron позволяют использовать веб-интерфейс в десктопных приложениях. У каждого направления есть дополнительные требования: например, нативная часть Tauri использует Rust. Это направления развития, а не перечень технологий, которыми обязан владеть каждый фронтенд-разработчик.",
+    "title": "Что ещё может делать фронтендер",
+    "label": "Больше возможностей",
+    "notes": "Навыки фронтенда можно применять и за пределами обычных сайтов: создавать серверную часть, игры, 3D-сцены, карты, мобильные и десктопные приложения. Full stack — это серверная разработка, например Node.js, API, база данных и авторизация. Pixi.js предоставляет 2D-рендеринг, Phaser — игровой фреймворк. Three.js применяют для 3D-графики, в том числе в браузерных играх. MapLibre GL JS помогает создавать интерактивные карты. React Native позволяет создавать мобильные приложения для iOS и Android. Tauri и Electron позволяют использовать веб-интерфейс в десктопных приложениях. У каждого направления есть дополнительные требования: например, нативная часть Tauri использует Rust. Это дополнительные возможности: осваивать все эти инструменты каждому фронтендеру не требуется.",
     "sources": [
       {
         "label": "Node.js",
@@ -357,13 +352,13 @@ window.DECK = [
     ],
     "directions": [
       {
-        "title": "Full stack",
+        "title": "Бэкенд",
         "tools": "Node.js",
-        "detail": "Разработка бэкенда: API, базы данных и авторизация",
+        "detail": "API, базы данных и авторизация для сервисов",
         "symbol": "{ }"
       },
       {
-        "title": "Игровая индустрия",
+        "title": "Игры",
         "tools": "Pixi.js / Phaser",
         "detail": "2D-игры и игровые интерфейсы. Для 3D — Three.js",
         "symbol": "game"
@@ -375,7 +370,7 @@ window.DECK = [
         "symbol": "cube"
       },
       {
-        "title": "Мобильная разработка",
+        "title": "Мобильные приложения",
         "tools": "React Native",
         "detail": "Приложения для iOS и Android на знакомом React",
         "symbol": "phone"
