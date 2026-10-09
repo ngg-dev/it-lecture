@@ -11,6 +11,7 @@
 - `browser-deck/dist/` — исходники презентации: HTML, CSS, JavaScript и изображения.
 - `browser-deck/dist/slides.js` — содержание слайдов и источники.
 - `browser-deck/dist/assets/projects/sources.json` — источники изображений проектов.
+- `lecture/frontend-talk.pdf` — актуальная PDF-версия: семь слайдов в формате 16:9, без элементов управления, с поиском по тексту.
 - `lecture/talk-script-5-6-min.txt` — текст к каждому слайду и поминутный план выступления 11 октября 2026 года.
 - `browser-deck/export-standalone.mjs` — сборка одного HTML-файла для показа без интернета.
 - `.github/workflows/pages.yml` — автоматическая публикация на GitHub Pages.
